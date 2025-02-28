@@ -16,7 +16,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | Problem No. | Problem Name | Solution |
 |-------------|-------------|----------|
 | [Problem 1](#problem-1-ninja-and-locker) | **Ninja and Locker** | [Java](./Solutions%20in%20JAVA/Ninja_And_Locker.java)| 
-| [Problem 2](#problem-2-combine-two-tables) | **Example Problem** | [SQL](./SQL/combine-two-tables.sql)  |
+| [Problem 2](#problem-2) | **Combine Two Tables** | [SQL](./SQL/combine-two-tables.sql)  |
 | [Problem 3](#problem-3-another-problem) | **Another Problem** | [Java](./solutions/day-03/solution.java)  |
 
 
