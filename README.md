@@ -15,9 +15,10 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 
 | Problem No. | Problem Name | Solution |
 |-------------|-------------|----------|
-| [Problem 1](#problem-1-ninja-and-locker) | **Ninja and Locker** | [Java](./solutions/day-01/solution.java)| 
-| [Problem 2](#problem-2-example-problem) | **Example Problem** | [Java](./solutions/day-02/solution.java)  |
+| [Problem 1](#problem-1-ninja-and-locker) | **Ninja and Locker** | [Java](./Solutions%20in%20JAVA/Ninja_And_Locker.java)| 
+| [Problem 2](#problem-2-combine-two-tables) | **Example Problem** | [SQL](./SQL/combine-two-tables.sql)  |
 | [Problem 3](#problem-3-another-problem) | **Another Problem** | [Java](./solutions/day-03/solution.java)  |
+
 
 ## 🚀 How to Use
 
@@ -39,7 +40,7 @@ This repository is primarily for personal practice, but feel free to fork it and
 ## Happy Coding! 🎯🚀
 
 ## Problem-1 (Ninja and Locker)
-   # Statement
+   ### Statement
    ```sh
    Ninja has two arrays ‘CASH’’ and ‘LOCKER’ denoting the height of each stack of cash of unit width and height of ‘N’ sections in the locker respectively.
 
@@ -56,9 +57,41 @@ This repository is primarily for personal practice, but feel free to fork it and
    ![NINAJA_AND_LOCKER](./images/ninja_and_locker-1.png) 
    ![NINAJ_AND_LOCKER](./images/ninja_and_locker-2.png)
    
-   ## [SOLUTION](./Solutions%20in%20JAVA/Ninja_And_Locker.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Ninja_And_Locker.java)
 
 
 ## Problem-2
-   
+   ### Statement
+   ```sh
+   Table: Person
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| PersonId    | int     |
+| FirstName   | varchar |
+| LastName    | varchar |
++-------------+---------+
+PersonId is the primary key column for this table.
+Table: Address
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| AddressId   | int     |
+| PersonId    | int     |
+| City        | varchar |
+| State       | varchar |
++-------------+---------+
+AddressId is the primary key column for this table.
+
+
+Write a SQL query for a report that provides the following 
+information for each person in the Person table, regardless if there is an address for each of those people:
+
+FirstName, LastName, City, State
+   ```
+   ### [SOLUTION](./SQL/combine-two-tables.sql)
+
+
 
