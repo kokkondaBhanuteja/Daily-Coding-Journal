@@ -17,7 +17,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 |-------------|-------------|----------|
 | [Problem 1](#problem-1-ninja-and-locker) | **Ninja and Locker** | [Java](./Solutions%20in%20JAVA/Ninja_And_Locker.java)| 
 | [Problem 2](#problem-2) | **Combine Two Tables** | [SQL](./SQL/combine-two-tables.sql)  |
-| [Problem 3](#problem-3-another-problem) | **Another Problem** | [Java](./solutions/day-03/solution.java)  |
+| [Problem 3](#problem-3) | **Check For Dead End In A BST** | [Java](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)  |
 
 
 ## 🚀 How to Use
@@ -93,5 +93,25 @@ FirstName, LastName, City, State
    ```
    ### [SOLUTION](./SQL/combine-two-tables.sql)
 
+
+## Problem-3
+   ### Statement
+   ```sh
+   You are given a Binary Search Tree (BST) that contains positive integers only. 
+   Your task is to find out whether the BST contains a Dead End. A BST is said to have a Dead End if there exists a leaf node in the BST,
+   for which it is impossible to insert any further nodes after that node in that BST. If such nodes do not exist, then the BST doesn’t contain a Dead End.
+
+   A binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree whose internal nodes 
+   each store a value greater than all the values in the node's left subtree and less than those in its right subtree.
+   ```
+   ```sh
+      Sample Input 1 :
+         1
+         10 6 12 2 8 11 15 -1 -1 -1 -1 -1 -1 -1 -1
+         Sample Output 1 :
+         True
+   ```
+   ![Problem_Image](./images/deadend_bst-1png.png)
+   ### [SOLUTION](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)
 
 
