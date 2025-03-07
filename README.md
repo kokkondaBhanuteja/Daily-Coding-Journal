@@ -18,6 +18,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 1](#problem-1-ninja-and-locker) | **Ninja and Locker** | [Java](./Solutions%20in%20JAVA/Ninja_And_Locker.java)| 
 | [Problem 2](#problem-2) | **Combine Two Tables** | [SQL](./SQL/combine-two-tables.sql)  |
 | [Problem 3](#problem-3) | **Check For Dead End In A BST** | [Java](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)  |
+| [Problem 4](#problem-4) | **Longest Route** | [CPP](./Solutions%20in%20CPP/Arrays/longestPath.cpp)|
 
 
 ## 🚀 How to Use
@@ -115,3 +116,12 @@ FirstName, LastName, City, State
    ### [SOLUTION](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)
 
 
+## Problem-4
+   ### Statement
+      ```sh
+      You are given a 2-D binary matrix "Mat" of dimensions N x M consisting only of 0s and 1s. The cell consisting of 0 means that the cell is blocked and it cannot be visited 
+      whereas a cell with 1 as a value means it can be visited.
+      You are given a source cell and a destination cell. You need to find the length of the longest possible path from source to destination, given you can only move in 
+      4 possible directions north(i.e from (i,j) to (i-1,j)), south(i.e from (i,j) to (i+1,j)), east(i.e from (i,j) to (i,j-1)), and west(i.e from (i,j) to (i,j+1)), and without visiting a cell twice.
+      ``` 
+   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/longestPath.cpp)
