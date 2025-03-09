@@ -20,6 +20,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 3](#problem-3) | **Check For Dead End In A BST** | [Java](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)  |
 | [Problem 4](#problem-4) | **Longest Route** | [CPP](./Solutions%20in%20CPP/Arrays/longestPath.cpp)|
 | [Problem 5](#problem-5) | **Merge Point of Two Linked Lists**| [JAVA](./Solutions%20in%20JAVA/MergePointOfList.java)|
+| [Problem 6](#problem-6)| **Binary strings with no consecutive 1s**| [CPP](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp) |
 
 
 
@@ -134,3 +135,17 @@ FirstName, LastName, City, State
    ```
    ![!Problem Image](./images/listMerge.png)
    ### [SOLUTION](./Solutions%20in%20JAVA/MergePointOfList.java)
+
+## Problem-6
+   ### Statement
+   ```sh
+   You have been given an integer 'N'. Your task is to generate and return all binary strings of length 'N' such that,
+   there are no consecutive 1's in the string.
+   A binary string is that string which contains only ‘0’ and ‘1’.
+   
+   For Example:
+   Let ‘N'=3, hence the length of the binary string would be 3. 
+   We can have the following binary strings with no consecutive 1s:
+   000 001 010 100 101 
+   ```
+   ### [SOLUTION](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp)
