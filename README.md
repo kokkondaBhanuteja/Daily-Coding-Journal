@@ -21,6 +21,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 4](#problem-4) | **Longest Route** | [CPP](./Solutions%20in%20CPP/Arrays/longestPath.cpp)|
 | [Problem 5](#problem-5) | **Merge Point of Two Linked Lists**| [JAVA](./Solutions%20in%20JAVA/MergePointOfList.java)|
 | [Problem 6](#problem-6)| **Binary strings with no consecutive 1s**| [CPP](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp) |
+| [Problem 7](#problem-7)| **Flip given bits**| [CPP](./Solutions%20in%20CPP/Arrays/flibBits.cpp)|
 
 
 
@@ -149,3 +150,22 @@ FirstName, LastName, City, State
    000 001 010 100 101 
    ```
    ### [SOLUTION](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp)
+
+## Problem-7
+   ### Statement 
+   ```sh
+   You have been given an integer 'NUM' (32 bits) and an array of size 'N'.
+   Your task is to flip all the bits of 'NUM' at position 'ARR[i]' where 0<= i <= N-1.
+   Sample Input 1:
+   3
+   4 2 1
+   21
+   Sample Output 1:
+   30
+   Explanation for Sample Input 1:
+   Before flipping
+   21 => 10101
+   After flipping the 4th, 2nd and 1st bit from the end we get 
+   30 => 11110
+   ```
+   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/flibBits.cpp)
