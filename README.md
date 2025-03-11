@@ -22,7 +22,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 5](#problem-5) | **Merge Point of Two Linked Lists**| [JAVA](./Solutions%20in%20JAVA/MergePointOfList.java)|
 | [Problem 6](#problem-6)| **Binary strings with no consecutive 1s**| [CPP](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp) |
 | [Problem 7](#problem-7)| **Flip given bits**| [CPP](./Solutions%20in%20CPP/Arrays/flibBits.cpp)|
-
+|[Problem 8](#problem-8)|**Prime Permutations**|[CPP](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)|
 
 
 ## 🚀 How to Use
@@ -169,3 +169,16 @@ FirstName, LastName, City, State
    30 => 11110
    ```
    ### [SOLUTION](./Solutions%20in%20CPP/Arrays/flibBits.cpp)
+
+
+## Problem-8
+   ### Statement
+   ```sh
+   You are given an integer, ‘N’. Your task is to determine the total number of different permutations of the numbers from 1 to ‘N’, such that in every such permutation, all prime numbers within the range, 1 to ‘N’ are present at prime indices(1-indexed), and composite numbers at composite indices.
+
+   Note:
+   1. The permutation [1,4,3,2] is not a valid permutation because 2 is a prime number and thus it should be placed at a prime index but in this permutation, it is placed at index 4(1-indexed). Also, at index 2, a prime number should have been placed as 2 is a prime number but here, 4 is placed which is not a prime number. So, this is an invalid permutation.
+
+   2. The permutation [1,3,2,4] is a valid permutation because 2 and 3 are prime numbers, so index 2 and index 3 are prime indices. In this permutation, prime numbers are placed at prime indices only and composite numbers are placed at composite indices so this is a valid permutation.
+   ```
+   ### [SOLUTION](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)
