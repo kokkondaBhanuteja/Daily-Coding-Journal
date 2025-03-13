@@ -22,7 +22,8 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 5](#problem-5) | **Merge Point of Two Linked Lists**| [JAVA](./Solutions%20in%20JAVA/MergePointOfList.java)|
 | [Problem 6](#problem-6)| **Binary strings with no consecutive 1s**| [CPP](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp) |
 | [Problem 7](#problem-7)| **Flip given bits**| [CPP](./Solutions%20in%20CPP/Arrays/flibBits.cpp)|
-|[Problem 8](#problem-8)|**Prime Permutations**|[CPP](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)|
+| [Problem 8](#problem-8)|**Prime Permutations**|[CPP](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)|
+| [Problem 9](#problem-9)|**Largest Number in Binary Tree**|[CPP]|
 
 
 ## 🚀 How to Use
@@ -182,3 +183,16 @@ FirstName, LastName, City, State
    2. The permutation [1,3,2,4] is a valid permutation because 2 and 3 are prime numbers, so index 2 and index 3 are prime indices. In this permutation, prime numbers are placed at prime indices only and composite numbers are placed at composite indices so this is a valid permutation.
    ```
    ### [SOLUTION](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)
+
+## Problem-9
+   ### Statement
+   ```sh
+   You have been given a Binary Tree of 'N' nodes where the nodes have integer values.
+   Your task is to find the largest number that could be formed by concatenating all its nodes values.
+   ```
+   **For example:**
+   For the given binary tree:   
+   ![Problem Image](./images/problem-9_1.jpg)
+  ### Output: 96553210    
+   Explanation: After concatenating all the numbers in the above binary tree
+   this is the largest number that can be formed. 
