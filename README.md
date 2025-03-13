@@ -23,7 +23,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 6](#problem-6)| **Binary strings with no consecutive 1s**| [CPP](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp) |
 | [Problem 7](#problem-7)| **Flip given bits**| [CPP](./Solutions%20in%20CPP/Arrays/flibBits.cpp)|
 | [Problem 8](#problem-8)|**Prime Permutations**|[CPP](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)|
-| [Problem 9](#problem-9)|**Largest Number in Binary Tree**|[CPP]|
+| [Problem 9](#problem-9)|**Largest Number in Binary Tree**|[CPP](./Solutions%20in%20CPP/Trees/LargestNumber.cpp) [JAVA](./Solutions%20in%20JAVA/trees/PrintLargest.java)|
 
 
 ## 🚀 How to Use
@@ -196,3 +196,4 @@ FirstName, LastName, City, State
   ### Output: 96553210    
    Explanation: After concatenating all the numbers in the above binary tree
    this is the largest number that can be formed. 
+   ### [SOLUTION](./Solutions%20in%20CPP/Trees/LargestNumber.cpp)
