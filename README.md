@@ -24,6 +24,10 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 7](#problem-7)| **Flip given bits**| [CPP](./Solutions%20in%20CPP/Arrays/flibBits.cpp)|
 | [Problem 8](#problem-8)|**Prime Permutations**|[CPP](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)|
 | [Problem 9](#problem-9)|**Largest Number in Binary Tree**|[CPP](./Solutions%20in%20CPP/Trees/LargestNumber.cpp) [JAVA](./Solutions%20in%20JAVA/trees/PrintLargest.java)|
+| [Problem 10](#problem-10)| **Election Result**| [JAVA](./Solutions%20in%20JAVA/Strings/ElectionResult.java)|
+| [Problem 11](#problem-11)|**Custom Sort String**|[JAVA](./Solutions%20in%20JAVA/Strings/CustomSortString.java)|
+
+
 
 
 ## 🚀 How to Use
@@ -197,3 +201,38 @@ FirstName, LastName, City, State
    Explanation: After concatenating all the numbers in the above binary tree
    this is the largest number that can be formed. 
    ### [SOLUTION](./Solutions%20in%20CPP/Trees/LargestNumber.cpp)
+
+## Problem-10
+   ## Statement
+   ```sh
+   Elections are going on, and there are two candidates A and B, contesting with each other. 
+   There is a queue of voters and in this queue, some of them are supporters of A and some of them are supporters of B. 
+   Many of them are neutral. The fate of the election will be decided on which side the neutral voters vote. Supporters of A and supporters of B make attempts to win the votes of neutral voters.
+
+   The way this can be done is explained below:
+
+   1. The voter queue is denoted by three characters, viz {-, A, B}. The ‘-’ denotes neutral candidate,
+    ‘A’ denotes supporter of candidate A and ‘B’ denotes supporter of candidate B.
+   2. Supporters of A can only move towards the left side of the queue.
+   3. Supporters of B can only move towards the right side of the queue.
+   4. Since time is critical, supporters of both A and B will move simultaneously.
+   5. They both will try and influence the neutral voters by moving in their direction in the queue. If a supporter of A reaches the neutral voter before a supporter of B reaches him, 
+   then that neutral voter will become a supporter of candidate A.
+   6. Similarly, if a supporter of B reaches the neutral voter before supporter of A reaches him, then that neutral voter will become a supporter of candidate B.
+   7. Finally, if both reach at the same time, the voter will remain neutral. A neutral vote cannot decide the outcome of the election.
+   8. If finally, the queue has more votes for candidate A, then A wins the election. If B has more votes, then B wins that election. If both have equal votes, then it will be a coalition government.
+   Your task is to find the outcome of the election.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/ElectionResult.java)
+
+## Problem-11
+   ### Statement
+   ```sh
+   You are provided with the two strings named X and Y respectively. Y has its own specific order and has no repeating characters. Your task is to arrange the characters of the first string i.e. X in such a way that the order of characters in X is exactly the same as in Y, which means if ‘d’ occurs after ‘c’ in Y then it should also occur after ‘c’ in X ( obviously if X has ‘d’ and ‘c’ as characters in it ). All you have to do is, convert string X in the specific order with respect to string Y.
+
+   Note :
+
+   Both the strings have only lowercase English alphabets. 
+   There may be more than one correct solution, you have to return any one of the possible solutions.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CustomSortString.java)
