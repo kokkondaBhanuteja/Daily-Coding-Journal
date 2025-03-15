@@ -26,7 +26,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 9](#problem-9)|**Largest Number in Binary Tree**|[CPP](./Solutions%20in%20CPP/Trees/LargestNumber.cpp) [JAVA](./Solutions%20in%20JAVA/trees/PrintLargest.java)|
 | [Problem 10](#problem-10)| **Election Result**| [JAVA](./Solutions%20in%20JAVA/Strings/ElectionResult.java)|
 | [Problem 11](#problem-11)|**Custom Sort String**|[JAVA](./Solutions%20in%20JAVA/Strings/CustomSortString.java)|
-
+| [Problem 12](#problem-12)|**Fastest Ninja**|[JAVA](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)|
 
 
 
@@ -236,3 +236,39 @@ FirstName, LastName, City, State
    There may be more than one correct solution, you have to return any one of the possible solutions.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CustomSortString.java)
+
+## Problem-12
+   ### Statement
+   ```sh
+   After the pandemic ended, Alice and Bob finally got the chance to play some outdoor games. They decided to play “Fastest Ninja” along with their ‘N’ other friends. The game is as follows,
+
+1. Bob and Alice are standing at coordinates (0, 0) and (‘X’, ‘Y’), respectively, in the X-Y plane.
+
+2. All the other ‘N’ friends are standing at some coordinates in the X-Y plane. The starting positions of all the ‘N’ friends are given as a 2 - Dimensional array of integers ‘positions’, where ‘position[i]’ denotes the starting position of the i-th friend.
+
+3. In one move, Bob and his ‘N’ friends can independently choose to do one of the following two things:
+
+    1. Stay at their current position.
+
+    2. Move to any of the four neighboring positions, i.e., for any (x, y) move to north(x, y + 1), south(x, y - 1), east(x + 1, y), or west(x - 1, y).
+To win the game, Bob has to reach Alice before any of his ‘N’ friends catches him. As Bob’s friend, your task is to tell him whether he can win the game or not.
+
+Note:
+All the coordinates are integral coordinates on the X-Y plane
+
+There can be multiple friends with the same starting position(including Alice and Bob).
+
+Bob and his ‘N’ friends move simultaneously.
+
+Bob loses if he reaches any coordinate(including Alice’s position) at the same time as any of his ‘N’ friends.
+   ```
+```sh
+ Sample Input 1: 
+   3  #no of friends
+   2 2 # alice coordinates (in the image the alice coordinate  is marked in green color)
+   0 1 ## friends Coordinates
+   1 0
+   1 1
+```
+![ProblemImage](./images/fastest_ninja.png)
+### [SOLUTION](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)
