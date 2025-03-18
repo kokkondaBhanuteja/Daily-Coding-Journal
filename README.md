@@ -27,7 +27,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 10](#problem-10)| **Election Result**| [JAVA](./Solutions%20in%20JAVA/Strings/ElectionResult.java)|
 | [Problem 11](#problem-11)|**Custom Sort String**|[JAVA](./Solutions%20in%20JAVA/Strings/CustomSortString.java)|
 | [Problem 12](#problem-12)|**Fastest Ninja**|[JAVA](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)|
-
+| [Problem 13](#problem-13)|**Clone a binary tree with random pointers**|[JAVA](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)|
 
 
 ## 🚀 How to Use
@@ -272,3 +272,33 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
 ```
 ![ProblemImage](./images/fastest_ninja.png)
 ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)
+
+
+## Problem-13
+   ### Statement  
+   ```sh
+   You are given a binary tree. Apart from the left and right child pointers, each node in the given binary tree points to a random node in the given binary tree. You are supposed to return a clone of the binary tree.
+   Cloning a binary tree means making a deep copy of the input binary tree.
+
+   Note :
+   Two nodes may have the same value associated with them.
+   The root node will be fixed and will be provided in the function.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)
+
+## Problem
+   ### Statement 
+   ```sh
+   You are given a string 'S' of length 'N' consisting of lowercase English alphabet letters. 
+   You are also given a positive integer 'K'.
+   Now, a substring of this string is good if it contains at most 'K' distinct characters.
+   A string 'X' is a substring of string 'Y' if it can be obtained by deletion of several continuous elements(possibly zero) 
+   from the beginning and the end from the string 'Y'.
+
+   Your task is to return the maximum size of any good substring of the string 'S'.
+
+   Example:
+   ‘S’ = “bacda” and ‘K’ = 3.
+
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)
