@@ -28,6 +28,10 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 11](#problem-11)|**Custom Sort String**|[JAVA](./Solutions%20in%20JAVA/Strings/CustomSortString.java)|
 | [Problem 12](#problem-12)|**Fastest Ninja**|[JAVA](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)|
 | [Problem 13](#problem-13)|**Clone a binary tree with random pointers**|[JAVA](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)|
+|[Problem 14](#problem-14)|**Longest Substring With K Distinct Characters**|[JAVA](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)|
+| [Problem 15](#problem-15) | **Square Submatrix with sum less than or equal to K** | [JAVA](./Solutions%20in%20JAVA/Matrices/BigSquareSum.java) |
+| [Problem 16](#problem-16) | **ATOI (String to Integer Conversion)** | [JAVA](./Solutions%20in%20JAVA/Strings/AtoI.java) |
+
 
 
 ## 🚀 How to Use
@@ -286,7 +290,7 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)
 
-## Problem
+## Problem-14
    ### Statement 
    ```sh
    You are given a string 'S' of length 'N' consisting of lowercase English alphabet letters. 
@@ -302,3 +306,25 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
 
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)
+## Problem-15
+   ### Statement
+   ```sh
+   Given a 2-dimensional matrix of size ‘N’ x ‘M’ and an integer K. Find the size of the largest square sub-matrix ,
+   whose sum is less than or equal to K. The size of a matrix is the product of rows and columns in it.
+   A sub-matrix is a matrix obtained from the given matrix by deletion of several (possibly, zero or all) 
+   rows/columns from the beginning and several (possibly, zero or all) rows/columns from the end. 
+   A square matrix is a matrix which has the same number of rows and columns.
+   ```
+   ![Image](./images/bigSquareSum.jpg)
+   
+   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/BigSquareSum.java)
+## Problem-16
+   ### Statement
+   ```sh
+   Given a string s, the objective is to convert it into integer format without utilizing any built-in functions. 
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/AtoI.java)
+## Problem-17
+   ### Statement
+   ```sh
+   ```
