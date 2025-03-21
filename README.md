@@ -28,9 +28,12 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 11](#problem-11)|**Custom Sort String**|[JAVA](./Solutions%20in%20JAVA/Strings/CustomSortString.java)|
 | [Problem 12](#problem-12)|**Fastest Ninja**|[JAVA](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)|
 | [Problem 13](#problem-13)|**Clone a binary tree with random pointers**|[JAVA](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)|
-|[Problem 14](#problem-14)|**Longest Substring With K Distinct Characters**|[JAVA](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)|
+| [Problem 14](#problem-14)|**Longest Substring With K Distinct Characters**|[JAVA](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)|
 | [Problem 15](#problem-15) | **Square Submatrix with sum less than or equal to K** | [JAVA](./Solutions%20in%20JAVA/Matrices/BigSquareSum.java) |
 | [Problem 16](#problem-16) | **ATOI (String to Integer Conversion)** | [JAVA](./Solutions%20in%20JAVA/Strings/AtoI.java) |
+| [Problem 17](#problem-17)|**Good Number**|[JAVA](./Solutions%20in%20JAVA/GoodNumber.java)|
+| [Problem 18](#problem-18)|**Hills and Soldiers**|[JAVA](./Solutions%20in%20JAVA/List/HillsandSoldier.java)|
+| [Problem 19](#problem-19)| **Tic-Tac-Toe**|[JAVA](./Solutions%20in%20JAVA/Matrices/TicTacToe.java)|
 
 
 
@@ -71,7 +74,7 @@ This repository is primarily for personal practice, but feel free to fork it and
    ![NINAJA_AND_LOCKER](./images/ninja_and_locker-1.png) 
    ![NINAJ_AND_LOCKER](./images/ninja_and_locker-2.png)
    
-   ### [SOLUTION](./Solutions%20in%20JAVA/Ninja_And_Locker.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Ninja_And_Locker.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 
 ## Problem-2
@@ -105,7 +108,7 @@ information for each person in the Person table, regardless if there is an addre
 
 FirstName, LastName, City, State
    ```
-   ### [SOLUTION](./SQL/combine-two-tables.sql)
+   ### [SOLUTION](./SQL/combine-two-tables.sql)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 
 ## Problem-3
@@ -126,7 +129,7 @@ FirstName, LastName, City, State
          True
    ```
    ![Problem_Image](./images/deadend_bst-1png.png)
-   ### [SOLUTION](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/CheckForDeadEnd_In_BST.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 
 ## Problem-4
@@ -136,7 +139,7 @@ FirstName, LastName, City, State
       You are given a source cell and a destination cell. You need to find the length of the longest possible path from source to destination, given you can only move in 
       4 possible directions north(i.e from (i,j) to (i-1,j)), south(i.e from (i,j) to (i+1,j)), east(i.e from (i,j) to (i,j-1)), and west(i.e from (i,j) to (i,j+1)), and without visiting a cell twice.
       
-   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/longestPath.cpp)
+   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/longestPath.cpp)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-5
    ### Statement
@@ -144,7 +147,7 @@ FirstName, LastName, City, State
    Given two singly linked lists, 'FIRST_HEAD' and 'SECOND_HEAD'. Your task is to find the 'MERGING POINT' i.e. the data of the node at which merging starts. If there is no merging, return -1.
    ```
    ![!Problem Image](./images/listMerge.png)
-   ### [SOLUTION](./Solutions%20in%20JAVA/MergePointOfList.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/MergePointOfList.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-6
    ### Statement
@@ -158,7 +161,7 @@ FirstName, LastName, City, State
    We can have the following binary strings with no consecutive 1s:
    000 001 010 100 101 
    ```
-   ### [SOLUTION](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp)
+   ### [SOLUTION](./Solutions%20in%20CPP/Recursion%20&%20DP/Noconsecutive1Binary.cpp)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-7
    ### Statement 
@@ -177,7 +180,7 @@ FirstName, LastName, City, State
    After flipping the 4th, 2nd and 1st bit from the end we get 
    30 => 11110
    ```
-   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/flibBits.cpp)
+   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/flibBits.cpp)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 
 ## Problem-8
@@ -190,7 +193,7 @@ FirstName, LastName, City, State
 
    2. The permutation [1,3,2,4] is a valid permutation because 2 and 3 are prime numbers, so index 2 and index 3 are prime indices. In this permutation, prime numbers are placed at prime indices only and composite numbers are placed at composite indices so this is a valid permutation.
    ```
-   ### [SOLUTION](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)
+   ### [SOLUTION](./Solutions%20in%20CPP/Numbers%20&%20MATH/PrimePermutation.cpp)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-9
    ### Statement
@@ -204,7 +207,7 @@ FirstName, LastName, City, State
   ### Output: 96553210    
    Explanation: After concatenating all the numbers in the above binary tree
    this is the largest number that can be formed. 
-   ### [SOLUTION](./Solutions%20in%20CPP/Trees/LargestNumber.cpp)
+   ### [SOLUTION](./Solutions%20in%20CPP/Trees/LargestNumber.cpp)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-10
    ## Statement
@@ -227,7 +230,7 @@ FirstName, LastName, City, State
    8. If finally, the queue has more votes for candidate A, then A wins the election. If B has more votes, then B wins that election. If both have equal votes, then it will be a coalition government.
    Your task is to find the outcome of the election.
    ```
-   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/ElectionResult.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/ElectionResult.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-11
    ### Statement
@@ -239,7 +242,7 @@ FirstName, LastName, City, State
    Both the strings have only lowercase English alphabets. 
    There may be more than one correct solution, you have to return any one of the possible solutions.
    ```
-   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CustomSortString.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CustomSortString.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-12
    ### Statement
@@ -275,7 +278,7 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
    1 1
 ```
 ![ProblemImage](./images/fastest_ninja.png)
-### [SOLUTION](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)
+### [SOLUTION](./Solutions%20in%20JAVA/Matrices/FastestNinja.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 
 ## Problem-13
@@ -288,7 +291,7 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
    Two nodes may have the same value associated with them.
    The root node will be fixed and will be provided in the function.
    ```
-   ### [SOLUTION](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/trees/CloneBinaryTreeRandomPointers.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 
 ## Problem-14
    ### Statement 
@@ -305,7 +308,8 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
    ‘S’ = “bacda” and ‘K’ = 3.
 
    ```
-   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/Longest_Substring_With_K_Distinct_Characters.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
+
 ## Problem-15
    ### Statement
    ```sh
@@ -317,14 +321,64 @@ Bob loses if he reaches any coordinate(including Alice’s position) at the same
    ```
    ![Image](./images/bigSquareSum.jpg)
    
-   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/BigSquareSum.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/BigSquareSum.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 ## Problem-16
    ### Statement
    ```sh
    Given a string s, the objective is to convert it into integer format without utilizing any built-in functions. 
    ```
-   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/AtoI.java)
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/AtoI.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
 ## Problem-17
    ### Statement
    ```sh
+   You are given an integer ‘N’, you need to find whether it’s a good number or not.
+
+We start from the integer ‘N’ and keep replacing the current number with the sum of squares of its digits, we keep repeating this process until we will the number 1. A number that generates the 1 after finite repetition of the above process is called a good number.
+
+Example :
+If ‘N’ = 7,
+
+Then we start with the integer 7 and replace it with (7 * 7) = 49.
+The new number is 49, we replace it with (4 * 4) + (9 * 9) = 97.
+We replace this new number 97 with (9 * 9) + (7 * 7) = 130.
+We replace this new number 130 with (1 * 1) + (3 * 3) + (0 * 0) = 10.
+We replace this new number 10 with (1 * 1) + (0 * 0) = 1.
+
+Therefore, the original number 7 is a good number. 
    ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/GoodNumber.java)&nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
+
+## Problem-18
+   ### Statement
+   ```sh
+   In old times when there was no direct communication channel present, for the security of kingdoms and to convey the danger to the kingdom the soldier used to fire light torches on the hills, and the soldier on other hills could watch those light torches and used to get the message.
+
+A soldier can watch the torch of another hill if there is no hill between them that is higher than any of the two hills.
+
+You are given an array of size ‘N’ representing the heights of the hill in order by the name ‘HILLS’ and you have to tell the number of pairs of soldiers who can see the torch of each other.
+
+For a pair, (a, b) is same as (b, a).
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/HillsandSoldier.java) &nbsp;&nbsp;&nbsp;&nbsp;  [BACK](#daily-coding-journal)
+
+
+## Problem-19
+   ### Statement
+   ```sh
+   Two players, named ‘player1’ and ‘player2’, play a tic-tac-toe game on a grid of size ‘3 x 3’. Given an array ‘moves’ of size ‘n’, where each element of the array is a tuple of the form (row, column) representing a position on the grid. Players place their characters alternatively in the sequence of positions given in ‘moves’. Consider that ‘player1’ makes the first move. Your task is to return the winner of the game, i.e., the winning player’s name. If there is no winner and some positions remain unmarked, return ‘uncertain’. Otherwise, the game ends in a draw, i.e., when all positions are marked without any winner, return ‘draw’.
+
+The rules of tic-tac-toe are as follows :
+
+1. At the start of the game, all grid positions are empty.
+
+2. The players take turns to place their characters alternatively into empty positions. ‘player1’ always places character ‘X’ and ‘player2’ always places character ‘O’.
+
+3. A player will never place characters into filled positions.
+
+4. The game ends when all the positions are filled.
+
+5. The game also ends when any row, column, or diagonal contains three same characters (i.e., either ‘X’ or ‘O’). In this case, the winner is the player whose character occupies these three positions.
+
+6. Once the game ends, no more moves are played.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/TicTacToe.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
