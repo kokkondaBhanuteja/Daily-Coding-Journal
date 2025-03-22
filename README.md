@@ -35,6 +35,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 18](#problem-18)|**Hills and Soldiers**|[JAVA](./Solutions%20in%20JAVA/List/HillsandSoldier.java)|
 | [Problem 19](#problem-19)| **Tic-Tac-Toe**|[JAVA](./Solutions%20in%20JAVA/Matrices/TicTacToe.java)|
 | [Problem 20](#problem-20)|**The Hero Test-2**|[CPP](./Solutions%20in%20CPP/Arrays/heroTest.cpp) &nbsp;&nbsp; [JAVA](./Solutions%20in%20JAVA/List/HeroTest_2.java)|
+| [Problem 21](#problem-21)|**Convert To Lower Case**|[CPP](./Solutions%20in%20CPP/strings/convert_to_lowerCase.cpp)&nbsp;&nbsp;[JAVA](./Solutions%20in%20JAVA/Strings/ConvertToLowerCase.java)|
 
 
 
@@ -401,3 +402,13 @@ The rules of tic-tac-toe are as follows :
       “4 3 5 2 1”
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/List/HeroTest_2.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal) 
+
+## Problem-21
+   ### Statement
+   ```sh
+   You are given a string ‘str’, your task is to convert all the characters of the string into lowercase letters.
+
+For example:
+   You are given, ‘str’ = ‘AbcdEfgh’, in this string if you convert all the characters into lowercase, the string will be  ‘abcdefgg’. Hence it is the answer.
+```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/ConvertToLowerCase.java) &nbsp;&nbsp; [BACK](#daily-coding-journal)
