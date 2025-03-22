@@ -34,6 +34,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 17](#problem-17)|**Good Number**|[JAVA](./Solutions%20in%20JAVA/GoodNumber.java)|
 | [Problem 18](#problem-18)|**Hills and Soldiers**|[JAVA](./Solutions%20in%20JAVA/List/HillsandSoldier.java)|
 | [Problem 19](#problem-19)| **Tic-Tac-Toe**|[JAVA](./Solutions%20in%20JAVA/Matrices/TicTacToe.java)|
+| [Problem 20](#problem-20)|**The Hero Test-2**|[CPP](./Solutions%20in%20CPP/Arrays/heroTest.cpp) &nbsp;&nbsp; [JAVA](./Solutions%20in%20JAVA/List/HeroTest_2.java)|
 
 
 
@@ -382,3 +383,21 @@ The rules of tic-tac-toe are as follows :
 6. Once the game ends, no more moves are played.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/TicTacToe.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+
+## Problem-20
+   ### Statement
+   ```sh
+   After passing hero test 1 with flying colours, now Ninja gets a different exam to get promoted to the hero class S.
+
+   Here also the pattern is the same as the previous exam, Ninja will get ‘N’ questions from 1 to ‘N’ but this time Ninja comes with a new technique to order the questions, he will solve a question after skipping ‘K’ questions (assume that after ‘N’th question he will come back to the first question) until he completes all questions.
+
+   Help Ninja by telling him the order of questions that is always a permutation of 1 to ‘N’.
+   ```
+   ```sh
+   For EXAMPLE: 
+      If the number of questions is ‘5’ and ‘K’ = 3 
+      Then the order will be
+      “4 3 5 2 1”
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/HeroTest_2.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal) 
