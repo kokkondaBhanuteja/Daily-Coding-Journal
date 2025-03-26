@@ -36,6 +36,10 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 19](#problem-19)| **Tic-Tac-Toe**|[JAVA](./Solutions%20in%20JAVA/Matrices/TicTacToe.java)|
 | [Problem 20](#problem-20)|**The Hero Test-2**|[CPP](./Solutions%20in%20CPP/Arrays/heroTest.cpp) &nbsp;&nbsp; [JAVA](./Solutions%20in%20JAVA/List/HeroTest_2.java)|
 | [Problem 21](#problem-21)|**Convert To Lower Case**|[CPP](./Solutions%20in%20CPP/strings/convert_to_lowerCase.cpp)&nbsp;&nbsp;[JAVA](./Solutions%20in%20JAVA/Strings/ConvertToLowerCase.java)|
+| [Problem 22](#problem-22)|**Find K Pairs with Smallest Sums**|[JAVA](./Solutions%20in%20JAVA/List/FindK_SmallestPairs.java)|
+| [Problem 23](#problem-23)|**Circular Tour**|[CPP](./Solutions%20in%20CPP/Arrays/CircularTour.cpp)|
+| [Problem 24](#problem-24)|**Program to check the validity of a Password**|[JAVA](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java)|
+
 
 
 
@@ -412,3 +416,47 @@ For example:
    You are given, ‘str’ = ‘AbcdEfgh’, in this string if you convert all the characters into lowercase, the string will be  ‘abcdefgg’. Hence it is the answer.
 ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/ConvertToLowerCase.java) &nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+
+## Problem-22
+   ### Statement
+   ```sh
+   You are given two arrays of positive integers say ‘arr1’ and ‘arr2’ and a positive integer ‘K’.
+   Also ‘arr1’ and ‘arr2’ are already sorted in ascending order. Consider all pairs (x, y) such that ‘x’ belongs to ‘arr1’ and ‘y’ belongs to ‘arr2’. You need to find exactly ‘K’ such pairs with the smallest sum of ‘x’ and ‘y’.
+
+   Example:
+
+      Let ‘arr1’ be [ ‘1’, ‘2’, ‘6’ ] and ‘arr2’ be [ ‘3’, ‘3’, ‘5’ ] and ‘K’ be 3.
+
+      There are 9 possible (x, y) pairs such that ‘x’ belongs to ‘arr1’ and ‘y’ belongs to ‘arr2’.
+       Among all of them 3 pairs with smaller ‘x’ + ‘y’ are [ (1, 3), (1, 3), (2, 3) ].
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/FindK_SmallestPairs.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-23
+   ### Statement
+   ```sh
+   You have been given a circular path. There are N petrol pumps on this path that are numbered from 0 to N - 1 (Both inclusive). Each petrol pump has two values associated with it:
+
+1)The amount of petrol that is available at this particular petrol pump.
+
+2)The distance to reach the next petrol pump.
+
+You are on a truck having an empty tank of infinite capacity. You can start the tour from any of the petrol pumps. Your task is to calculate the first petrol pump from where the truck will be able to complete the full circle or determine if it is impossible to do so.
+
+You may assume that the truck will stop at every petrol pump and it will add the petrol from that pump to its tank. The truck will move one kilometre for each litre of petrol consumed.
+   ```
+   [SOLUTION](./Solutions%20in%20CPP/Arrays/CircularTour.cpp) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-24
+   ### Statement
+   ```sh
+   Ninjas are trying to hack a system of a terrorist organization so that they can know where they will be going to attack next. But to hack the system and to get access to data they need a password that must satisfy certain conditions as described below:
+
+1) Length of the password must be between 8 to 15 characters.
+2) At least one digit (0-9), one lowercase letter (a-z), one uppercase letter (A-Z) and one special character (%, ^, &, #, *, %, etc) must be present.
+3) Password must not contain any space.
+You are given a string ‘STR’, help ninjas to find whether it's a valid password or not.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
