@@ -39,8 +39,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 22](#problem-22)|**Find K Pairs with Smallest Sums**|[JAVA](./Solutions%20in%20JAVA/List/FindK_SmallestPairs.java)|
 | [Problem 23](#problem-23)|**Circular Tour**|[CPP](./Solutions%20in%20CPP/Arrays/CircularTour.cpp)|
 | [Problem 24](#problem-24)|**Program to check the validity of a Password**|[JAVA](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java)|
-
-
+| [Problem 25](#problem-25)|**Reverse DLL nodes in groups**|[JAVA](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)|
 
 
 ## 🚀 How to Use
@@ -460,3 +459,13 @@ You are given a string ‘STR’, help ninjas to find whether it's a valid passw
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
 
+## Problem-25
+   ### Statement
+   ```sh
+   You are given a Doubly Linked List of integers and a positive integer 'K' representing the group size. Modify the linked list by reversing every group of 'K' nodes in the linked list.
+
+A doubly linked list is a type of linked list that is bidirectional, that is, it can be traversed in both directions, forward and backward. 
+Note:
+If the number of nodes in the list or in the last group is less than K, just reverse the remaining nodes. 
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
