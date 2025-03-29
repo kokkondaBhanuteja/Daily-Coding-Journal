@@ -40,6 +40,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 23](#problem-23)|**Circular Tour**|[CPP](./Solutions%20in%20CPP/Arrays/CircularTour.cpp)|
 | [Problem 24](#problem-24)|**Program to check the validity of a Password**|[JAVA](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java)|
 | [Problem 25](#problem-25)|**Reverse DLL nodes in groups**|[JAVA](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)|
+| [Problem 26](#problem-26)|**Longest Mountain Subarray**|[JAVA](./Solutions%20in%20JAVA/List/LongestMountainSubArray.java)|
 
 
 ## 🚀 How to Use
@@ -469,3 +470,15 @@ Note:
 If the number of nodes in the list or in the last group is less than K, just reverse the remaining nodes. 
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-26
+   ### 
+   ```sh
+   You are given an array of 'N' integers denoting the heights of the mountains. You need to find the length of the longest subarray which has the shape of a mountain.
+
+A mountain subarray is defined as a subarray which consists of elements that are initially in ascending order until a peak element is reached and beyond the peak element all other elements of the subarray are in decreasing order.
+
+Example:
+If the given array is: [1 3 1 4]. The longest mountain subarray would be 3. This is because the longest mountain is  [1 3 1] having length 3.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/LongestMountainSubArray.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
