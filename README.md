@@ -41,6 +41,9 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 24](#problem-24)|**Program to check the validity of a Password**|[JAVA](./Solutions%20in%20JAVA/Strings/CheckValidityOfPassword.java)|
 | [Problem 25](#problem-25)|**Reverse DLL nodes in groups**|[JAVA](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)|
 | [Problem 26](#problem-26)|**Longest Mountain Subarray**|[JAVA](./Solutions%20in%20JAVA/List/LongestMountainSubArray.java)|
+| [Problem 27](#problem-27)|**Longest Repeating Substring**|[JAVA](./Solutions%20in%20JAVA/Strings/LongestRepeatString.java)|
+| [Problem 28](#problem-28)|**Maximum Points From Cards**|[JAVA](./Solutions%20in%20JAVA/List/MaximumPointsFromCards.java)|
+| [Problem 29](#problem-29)|**Spiral Matrix**|[JAVA](./Solutions%20in%20JAVA/Matrices/SpiralMatrix.java)|
 
 
 ## 🚀 How to Use
@@ -472,7 +475,7 @@ If the number of nodes in the list or in the last group is less than K, just rev
    ### [SOLUTION](./Solutions%20in%20JAVA/List/ReverseDLL_in_Groups.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
 
 ## Problem-26
-   ### 
+   ### Statement
    ```sh
    You are given an array of 'N' integers denoting the heights of the mountains. You need to find the length of the longest subarray which has the shape of a mountain.
 
@@ -482,3 +485,32 @@ Example:
 If the given array is: [1 3 1 4]. The longest mountain subarray would be 3. This is because the longest mountain is  [1 3 1] having length 3.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/List/LongestMountainSubArray.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-27
+   ### Statement
+   ```sh
+   You are given a string 'str' of length 'N'. You can perform at most 'k' operations on this string. In one operation, 
+   you can choose any character of the string and change it to any other uppercase English alphabet character.
+
+   Return the length of the longest substring containing same characters after performing the above operations.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/LongestRepeatString.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-28
+   ### Statement
+   ```sh
+   Given an array 'arr' of size 'N' representing the points associated with each card, and an integer 'K' representing the number of cards to be taken.
+   We need to return the maximum score that can be obtained.
+   In each step, we can choose to take one card from either the beginning or the end of the row.
+   We must take exactly ‘K’ cards. The score is calculated as the sum of the points of the cards chosen.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/MaximumPointsFromCards.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-29
+   ### Statement
+   ```sh
+   You are given a 2-D array 'MATRIX' of dimensions N x M, of integers. You need to return the spiral path of the matrix.
+   ```
+   <img src="./images/spiral_matrix.jpeg" alt="Problem_Image" width="300" height="300">
+
+   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/SpiralMatrix.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
