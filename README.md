@@ -44,6 +44,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 27](#problem-27)|**Longest Repeating Substring**|[JAVA](./Solutions%20in%20JAVA/Strings/LongestRepeatString.java)|
 | [Problem 28](#problem-28)|**Maximum Points From Cards**|[JAVA](./Solutions%20in%20JAVA/List/MaximumPointsFromCards.java)|
 | [Problem 29](#problem-29)|**Spiral Matrix**|[JAVA](./Solutions%20in%20JAVA/Matrices/SpiralMatrix.java)|
+| [Problem 30](#problem-30)|**Max Difference in a Bianry String**|[JAVA](./Solutions%20in%20JAVA/List/MaxDifference.java)|
 
 
 ## 🚀 How to Use
@@ -514,3 +515,17 @@ If the given array is: [1 3 1 4]. The longest mountain subarray would be 3. This
    <img src="./images/spiral_matrix.jpeg" alt="Problem_Image" width="300" height="300">
 
    ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/SpiralMatrix.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-30
+   ### Statement
+   ```sh
+   You are given a binary string. You are supposed to find the maximum difference between the number of zeros(0's) and the number of ones(1's) in any substring of the given string.
+
+Note:
+Binary String is a string that consists of only ‘0’s and ‘1’s.
+
+A string ‘A’ is said to be a substring of string ‘B’ if ‘A’ can be obtained by deleting several characters(possibly none) from the start of ‘B’ and by deleting several characters(possibly none) from the end of ‘B’.
+
+The substring must have a length greater than or equal to 1.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/MaxDifference.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
