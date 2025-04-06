@@ -45,6 +45,8 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 28](#problem-28)|**Maximum Points From Cards**|[JAVA](./Solutions%20in%20JAVA/List/MaximumPointsFromCards.java)|
 | [Problem 29](#problem-29)|**Spiral Matrix**|[JAVA](./Solutions%20in%20JAVA/Matrices/SpiralMatrix.java)|
 | [Problem 30](#problem-30)|**Max Difference in a Bianry String**|[JAVA](./Solutions%20in%20JAVA/List/MaxDifference.java)|
+| [Problem 31](#problem-31)|**Print the Kth Digit**|[JAVA](./Solutions%20in%20JAVA/List/KthDigit.java)|
+| [Problem 32](#problem-32)|**Anagram Substring Search**|[JAVA](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java)|
 
 
 ## 🚀 How to Use
@@ -529,3 +531,29 @@ A string ‘A’ is said to be a substring of string ‘B’ if ‘A’ can be o
 The substring must have a length greater than or equal to 1.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/List/MaxDifference.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-31
+   ### Statement
+   ```sh
+      You are given three non-negative integers N, M, and K. Your task is to print the Kth digit from the right in ‘N’ raised to the power ‘M’ that is, in N ^ M.
+
+   Note:
+
+   1) It is guaranteed that the Kth digit from the right always exists.
+   2) It is also guaranteed that 'K' is always less than or equal to the number of digits in N ^ M.
+   3) 'N' and 'M 'can’t be a 0 simultaneously.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/KthDigit.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-32
+   ### Statement
+   ```sh
+   Given two strings ‘STR’ and ‘PTR’. Find all the starting indices of ‘PTR’ anagram substring in ‘STR’. Two strings are anagram if and only if one string can be converted into another string by rearranging the character.
+
+For example, ‘ABCD’ and ‘ACBD’ are two anagram strings because ‘ACBD’ can be converted into ‘ABCD’ by rearranging the ‘B’ and ‘C’. ’ABA’ and ‘ABB’ are not anagram because we can’t convert ‘ABA’ to ‘ABB’ by rearranging the characters of particular strings.
+
+‘ABACD’ and ‘CABAD’ are anagram because ‘ABACD’ can be converted into ‘CABAD’ by rearranging the first ‘A’ with ‘C’ and second ‘A’ with ‘B’.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+ 
+  
