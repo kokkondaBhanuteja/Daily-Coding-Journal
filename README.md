@@ -47,6 +47,8 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 30](#problem-30)|**Max Difference in a Bianry String**|[JAVA](./Solutions%20in%20JAVA/List/MaxDifference.java)|
 | [Problem 31](#problem-31)|**Print the Kth Digit**|[JAVA](./Solutions%20in%20JAVA/List/KthDigit.java)|
 | [Problem 32](#problem-32)|**Anagram Substring Search**|[JAVA](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java)|
+| [Problem 33](#problem-33)|**Anagram Substring Search**|[JAVA](.)|
+| [Problem 34](#problem-34)|**Anagram Substring Search**|[JAVA](.)|
 
 
 ## 🚀 How to Use
@@ -556,4 +558,28 @@ For example, ‘ABCD’ and ‘ACBD’ are two anagram strings because ‘ACBD�
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java) &nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
  
-  
+## Problem-33
+   ### Statement
+   ```sh
+   You are given two binary search trees of integers having ‘N’ and ‘M’ nodes. Return an array that contains elements of both BST in sorted order.
+
+
+
+A binary search tree (BST) is a binary tree data structure with the following properties.
+
+• The left subtree of a node contains only nodes with data less than the node’s data.
+
+• The right subtree of a node contains only nodes with data greater than the node’s data.
+
+• Both the left and right subtrees must also be binary search trees.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/trees/MergeBST.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-34
+   ### Statement
+   ```sh
+   You are given a binary string ‘STR’, containing only zeroes and ones. This string does not contain any leading zero.
+
+   Your task is to determine if this string contains at most one contiguous segment of ones.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/OneSegment.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
