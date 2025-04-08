@@ -47,8 +47,9 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 30](#problem-30)|**Max Difference in a Bianry String**|[JAVA](./Solutions%20in%20JAVA/List/MaxDifference.java)|
 | [Problem 31](#problem-31)|**Print the Kth Digit**|[JAVA](./Solutions%20in%20JAVA/List/KthDigit.java)|
 | [Problem 32](#problem-32)|**Anagram Substring Search**|[JAVA](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java)|
-| [Problem 33](#problem-33)|**Anagram Substring Search**|[JAVA](.)|
-| [Problem 34](#problem-34)|**Anagram Substring Search**|[JAVA](.)|
+| [Problem 33](#problem-33)|**Merge BST**|[JAVA](./Solutions%20in%20JAVA/trees/MergeBST.java)|
+| [Problem 34](#problem-34)|**One Segment**|[JAVA](./Solutions%20in%20JAVA/Strings/OneSegment.java)|
+| [Problem 35](#problem-35)|**BST Pair SUm**|[JAVA](./Solutions%20in%20JAVA/trees/BSTPairSum.java)|
 
 
 ## 🚀 How to Use
@@ -583,3 +584,18 @@ A binary search tree (BST) is a binary tree data structure with the following pr
    Your task is to determine if this string contains at most one contiguous segment of ones.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/OneSegment.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-35
+   ### Statement
+   ```sh
+   You are given the ‘root’ of a Balanced Binary Search Tree and an integer ‘target,’ you have to tell if there exists any pair of nodes such that the sum of their value is equal to the target.
+
+More formally check if there exist any two distinct nodes, whose sum is equal to ‘target.’
+
+Note:
+
+A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree.
+
+A balanced binary search tree is a tree in which each node has either 0 or 2 children.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/trees/BSTPairSum.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
