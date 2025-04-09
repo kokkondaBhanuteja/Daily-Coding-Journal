@@ -49,8 +49,9 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 32](#problem-32)|**Anagram Substring Search**|[JAVA](./Solutions%20in%20JAVA/Strings/AnagramIndicesFinder.java)|
 | [Problem 33](#problem-33)|**Merge BST**|[JAVA](./Solutions%20in%20JAVA/trees/MergeBST.java)|
 | [Problem 34](#problem-34)|**One Segment**|[JAVA](./Solutions%20in%20JAVA/Strings/OneSegment.java)|
-| [Problem 35](#problem-35)|**BST Pair SUm**|[JAVA](./Solutions%20in%20JAVA/trees/BSTPairSum.java)|
+| [Problem 35](#problem-35)|**BST Pair SUM**|[JAVA](./Solutions%20in%20JAVA/trees/BSTPairSum.java)|
 | [Problem 36](#problem-36)|**Interval Intersection**|[JAVA](./Solutions%20in%20JAVA/Matrices/IntervalIntersection.java)|
+| [Problem 37](#problem-37)|**Rotate Matrix K-Times**|[CPP](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)|
 
 
 ## 🚀 How to Use
@@ -613,3 +614,14 @@ The intersection of two closed intervals is a set of real numbers that are eithe
    ![Problem Image](./images/intervalIntersection.png)
 
    ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/IntervalIntersection.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-37
+   ### Statement
+   ```sh
+   Ninja is a teacher at a school. He introduced a game of matrix. He gives a square matrix, i.e. N X N matrix, to all the school students and asks them to rotate the matrix ‘K’ times in clockwise direction.
+
+Among them, a student Ninja is new to programming. He doesn’t have much experience, so he asks you to solve the problem. Can you help Ninja to rotate the matrix exactly ‘K’ times clockwise?
+
+Rotation of the matrix here means rotating each row of matrix 'K' times such that the new position of the element having coordinates (i, j) will become (i, (j + K) % N).
+```
+### [SOLUTION](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
