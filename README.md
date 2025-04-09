@@ -50,6 +50,7 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 33](#problem-33)|**Merge BST**|[JAVA](./Solutions%20in%20JAVA/trees/MergeBST.java)|
 | [Problem 34](#problem-34)|**One Segment**|[JAVA](./Solutions%20in%20JAVA/Strings/OneSegment.java)|
 | [Problem 35](#problem-35)|**BST Pair SUm**|[JAVA](./Solutions%20in%20JAVA/trees/BSTPairSum.java)|
+| [Problem 36](#problem-36)|**Interval Intersection**|[JAVA](./Solutions%20in%20JAVA/Matrices/IntervalIntersection.java)|
 
 
 ## 🚀 How to Use
@@ -599,3 +600,16 @@ A binary search tree, also called an ordered or sorted binary tree, is a rooted 
 A balanced binary search tree is a tree in which each node has either 0 or 2 children.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/trees/BSTPairSum.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-36
+   ### Statement
+   ```sh
+   You have been given two sorted arrays/lists of closed intervals ‘INTERVAL1’ and ‘INTERVAL2’. A closed interval [x, y] with x < y denotes the set of real numbers ‘z’ with x <= z <= y.
+
+Now, your task is to find the intersection of these two interval lists.
+
+The intersection of two closed intervals is a set of real numbers that are either empty or represented as a closed interval. For example, the intersection of [0, 2] and [1, 3] is [1, 2].
+   ```
+   ![Problem Image](./images/intervalIntersection.png)
+
+   ### [SOLUTION](./Solutions%20in%20JAVA/Matrices/IntervalIntersection.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
