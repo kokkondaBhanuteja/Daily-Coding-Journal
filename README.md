@@ -52,7 +52,8 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 35](#problem-35)|**BST Pair SUM**|[JAVA](./Solutions%20in%20JAVA/trees/BSTPairSum.java)|
 | [Problem 36](#problem-36)|**Interval Intersection**|[JAVA](./Solutions%20in%20JAVA/Matrices/IntervalIntersection.java)|
 | [Problem 37](#problem-37)|**Rotate Matrix K-Times**|[CPP](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)|
-
+| [Problem 38](#problem-38)|**State Diagram**|[JAVA](./Solutions%20in%20JAVA/List/StateDiagram.java)|
+| [Problem 39](#problem-39)|**Rearrange Sentences**|[JAVA](./Solutions%20in%20JAVA/Strings/SentenceSorter.java)|
 
 ## 🚀 How to Use
 
@@ -625,3 +626,29 @@ Among them, a student Ninja is new to programming. He doesn’t have much experi
 Rotation of the matrix here means rotating each row of matrix 'K' times such that the new position of the element having coordinates (i, j) will become (i, (j + K) % N).
 ```
 ### [SOLUTION](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem-38
+   ### Statement
+   ```sh
+   Given a state diagram in the form of a linked list, where each node represents a unique character and has two pointers('next' and 'random'), and a string 'str', find if this string is acceptable by the state diagram or not.
+
+   The state diagram looks something like this:
+   ```
+   ![Problem Image](./images/state_diagram.png)
+
+### [SOLUTION](./Solutions%20in%20JAVA/List/StateDiagram.java)&nbsp;&nbsp;&nbsp; [BACK](#daily-coding-journal)
+
+## Problem 39
+   ### Statement
+   ```sh
+   You are given an array of ‘N’ sentences. Each sentence is a space-delimited string of words. The first word in each sentence is an alphanumeric identifier. Then, at least one of the following conditions will hold true:
+
+1. After identifier, each word will consist only of lowercase English letters
+2. After the identifier, each word will consist only of numbers.
+We will call these two types of sentences, letter – sentence and number– sentence. It is guaranteed that each sentence has at least one word after its identifier. Your task is to sort these sentences such that the following two conditions will hold.
+
+1. All letter - sentences must come before number- sentences.
+2. The letter - sentences must be ordered lexicographically ignoring identifiers. The identifier will be used in case of ties.
+3. The number– sentence must be put in their original order of occurrence. 
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/SentenceSorter.java)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
