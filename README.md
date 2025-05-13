@@ -54,6 +54,8 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 37](#problem-37)|**Rotate Matrix K-Times**|[CPP](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)|
 | [Problem 38](#problem-38)|**State Diagram**|[JAVA](./Solutions%20in%20JAVA/List/StateDiagram.java)|
 | [Problem 39](#problem-39)|**Rearrange Sentences**|[JAVA](./Solutions%20in%20JAVA/Strings/SentenceSorter.java)|
+| [Problem 40](#problem-40) |**ReorderPowerOf2**|[JAVA](./Solutions%20in%20JAVA/Strings/PowerOfTwoReorder.java)|
+
 
 ## 🚀 How to Use
 
@@ -652,3 +654,18 @@ We will call these two types of sentences, letter – sentence and number– sen
 3. The number– sentence must be put in their original order of occurrence. 
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/SentenceSorter.java)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
+
+## Problem 40
+   ### Statement
+   ```sh
+You are given an integer ‘N’. We can reorder the digits in any order (including the original order) such that the leading digit is not zero.
+
+Return true if and only if we can do this so that the resulting number is a power of two. Else, return false.
+
+For Example :
+
+Given :-
+‘N’ = 218
+Then the answer will be true because it can be rearranged to 128, which is 2 raised to the power of 7.
+   ```
+   ### [SOLUTION](./Solutions%20in%20JAVA/Strings/PowerOfTwoReorder.java)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
