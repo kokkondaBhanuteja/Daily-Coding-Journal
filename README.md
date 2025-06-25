@@ -54,7 +54,9 @@ Below is a list of all the problems. Click on any problem to jump to its stateme
 | [Problem 37](#problem-37)|**Rotate Matrix K-Times**|[CPP](./Solutions%20in%20CPP/Arrays/MatrixKShift.cpp)|
 | [Problem 38](#problem-38)|**State Diagram**|[JAVA](./Solutions%20in%20JAVA/List/StateDiagram.java)|
 | [Problem 39](#problem-39)|**Rearrange Sentences**|[JAVA](./Solutions%20in%20JAVA/Strings/SentenceSorter.java)|
-| [Problem 40](#problem-40) |**ReorderPowerOf2**|[JAVA](./Solutions%20in%20JAVA/Strings/PowerOfTwoReorder.java)|
+| [Problem 40](#problem-40)|**ReorderPowerOf2**|[JAVA](./Solutions%20in%20JAVA/Strings/PowerOfTwoReorder.java)|
+| [Problem 41](#problem-41)|**Segregate Odd-Even**|[JAVA](./Solutions%20in%20JAVA/List/SegregateOddEven.java)|
+| [Problem 42](#problem-42)|**Missing Number**|[CPP](./Solutions%20in%20CPP/Arrays/missingNumber.cpp)|
 
 
 ## 🚀 How to Use
@@ -669,3 +671,23 @@ Given :-
 Then the answer will be true because it can be rearranged to 128, which is 2 raised to the power of 7.
    ```
    ### [SOLUTION](./Solutions%20in%20JAVA/Strings/PowerOfTwoReorder.java)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
+
+## Problem 41
+   ### Statement
+   ```sh
+   There is a wedding ceremony at NinjaLand. The bride and groom want everybody to play a game and thus, they have blindfolded the attendees. The people from the bride’s side are holding odd numbers and people from the groom’s side are holding the even numbers. For the game to start quickly, all the bride’s side people should come first, followed by the groom’s side people in the same order.
+
+The attendees of the wedding with their numbers are given in the form of a Singly Linked List, arranged randomly.
+
+A singly linked list is a type of linked list that is unidirectional; that is, it can be traversed in only one direction from head to the last node (tail).
+   ```
+   ![Image](./images/segregateOddEven.png)
+   ### [SOLUTION](./Solutions%20in%20JAVA/List/SegregateOddEven.java) &nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
+
+## Problem 42
+   ### Statement
+   ```sh
+   Given an array ‘ARR’ of ‘N’ integers, where all the elements occur an even number of times and only one number occurs an odd number of times.
+   Find and return the number which occurs an odd number of times.
+   ```
+   ### [SOLUTION](./Solutions%20in%20CPP/Arrays/missingNumber.cpp)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
