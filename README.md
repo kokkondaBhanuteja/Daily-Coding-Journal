@@ -691,3 +691,12 @@ A singly linked list is a type of linked list that is unidirectional; that is, i
    Find and return the number which occurs an odd number of times.
    ```
    ### [SOLUTION](./Solutions%20in%20CPP/Arrays/missingNumber.cpp)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
+
+## Problem 43
+   ### Statement
+   ```sh
+   Return true if all non-leaf nodes in a given binary tree have a value that is equal to the sum of their child nodes, otherwise return false..
+   ```
+   ![IMAGE](./images/problem-43.jpg)
+   
+   ### [SOLUTION](./Solutions%20in%20JAVA/trees/ChildrenSumProperty.java)&nbsp;&nbsp;&nbsp;&nbsp;[BACK](#daily-coding-journal)
