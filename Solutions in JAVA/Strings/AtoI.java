@@ -1,6 +1,4 @@
-import java.util.*;
-import java.lang.*;
-class AtoI{
+public class AtoI{
     public static int convert(String s) {
         int i=0;
         int n = s.length();
